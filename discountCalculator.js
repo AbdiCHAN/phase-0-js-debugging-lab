@@ -33,5 +33,7 @@ function calculateDiscountedPrice(quantity, pricePerItem) {
 
 module.exports = calculateDiscountedPrice;
 
-// 👇 ADD THIS SO THE DEBUGGER  RUNS IN THE  FUNCTION
+// 👇 THIS SO THE DEBUGGER  RUNS IN THE  FUNCTION
 calculateDiscountedPrice(12, 5);
+// 👇  THIS LINE TO SHOW OUTPUT
+console.log(calculateDiscountedPrice(12, 5));
